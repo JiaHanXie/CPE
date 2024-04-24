@@ -3,5 +3,5 @@
 
 - run test
 ```
-	make python3 main.py Input_Pattern Output_Pattern Output_File
+	make  Input_Pattern=${input-pattern} Output_Pattern=${output-pattern} Output_File=${output-file}
 ```
