@@ -12,7 +12,7 @@ try:
 except:
 	print('Error! File not exist.')
 	exit()
-Count = 0
+#
 Output_Data = ''
 for line in fpin_open:
 	print('input: ' + line.rstrip());
@@ -86,6 +86,6 @@ for line in fpin_open:
 		print('Error!')
 	else:
 		print('Correct!\n')
-	Count += Count
+
 	Output_Data = Output_Data + Output_Line + '\n'
 fout_open.write(Output_Data.rstrip())
